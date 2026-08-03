@@ -67,3 +67,9 @@ jwt:
 services:
     products:
       base-url: ${PRODUCTS_SERVICE_URL:lb://PRODUCTS}
+
+management:
+  endpoint:
+    health:
+      probes:
+        enabled: true
