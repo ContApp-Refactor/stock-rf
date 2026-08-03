@@ -1,6 +1,6 @@
 services:
   stock-rf:
-    image: jeserna/stock-rf:v0.0.27
+    image: jeserna/stock-rf:v0.0.37
     container_name: stock-rf
     env_file:
       - ${SECRETS_DIR:-/opt/secrets}/common-configs.env
